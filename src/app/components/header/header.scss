@@ -1,0 +1,49 @@
+$active: #ff3358;
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 5.55%;
+
+    .header-links {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        font-weight: 600;
+
+        li {
+            cursor: pointer;
+            padding-bottom: 8px;
+            &:hover {
+                color: $active;
+            }
+
+            &.active {
+                color: $active;
+                border-bottom: 2px solid $active;
+            }
+        }
+    }
+
+    .header-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .btn-demo,
+        .btn-login {
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid $active;
+            background: transparent;
+            color: white;
+        }
+
+        :hover {
+            background: $active;
+        }
+    }
+}
