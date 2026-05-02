@@ -1,0 +1,12 @@
+<div class="time-line-container" *ngIf="services && services.length">
+    <div *ngFor="let service of services; let i = index" class="time-line-tab" (click)="setActiveService(i)">
+        <div class="time-line-counter">0{{ i + 1 }}</div>
+        <div class="time-line-separator">
+            <span class="time-line-icon" [style.background-color]="service.iconColor">
+                <i [class]="service.icon"></i>
+            </span>
+            <div class="vertical-line"></div>
+        </div>
+        <div class="time-line-content">{{ service.title }}</div>
+    </div>
+</div>

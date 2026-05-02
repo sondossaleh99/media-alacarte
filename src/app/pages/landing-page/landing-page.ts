@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { HeaderComponent, HeroComponent, RolesComponent } from '../../components';
+import { HeaderComponent, HeroComponent, SolutionComponent } from '../../components';
 
 @Component({
   selector: 'landing-page-cmp',
-  imports: [HeroComponent,RolesComponent,HeaderComponent],
+  imports: [HeroComponent, HeaderComponent, SolutionComponent],
   templateUrl: './landing-page.html',
   styleUrl: './landing-page.scss',
 })

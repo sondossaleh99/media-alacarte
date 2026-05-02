@@ -6,12 +6,13 @@
     border: 1px solid var(--primary-pink);
     color: white;
     width: 100%;
-    
+
     &.filled {
         background-color: var(--primary-pink);
 
         &:hover {
             background-color: transparent;
+            transition: all 0.4s ease-in-out;
         }
     }
 
@@ -20,6 +21,7 @@
 
         &:hover {
             background-color: var(--primary-pink);
+            transition: all 0.4s ease-in-out;
         }
     }
 }
