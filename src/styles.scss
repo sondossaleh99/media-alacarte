@@ -1,10 +1,18 @@
 body {
-    background-color: rgb(32, 33, 45);
-    color: #ffffff;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
     margin: 0;
     font-family: 'Work Sans', sans-serif !important;
 }
 
 :root {
-    --font-family: 'Work Sans', sans-serif;
+    --primary-pink: #ff3358;
+
+    --bg-dark: rgba(32, 32, 32, 1);
+    --bg-gray: rgba(249, 250, 251, 0.05);
+
+    --text-main: #fff;
+    --text-secondary: #888;
+
+    --border-light: rgba(249, 250, 251, 0.1);
 }

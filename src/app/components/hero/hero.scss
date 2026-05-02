@@ -1,7 +1,5 @@
-$primary-pink: #ff3358;
 
 .hero-section {
-  background: rgb(32, 33, 45);
   min-height: 360px;
   display: flex;
   align-items: center;
@@ -9,7 +7,7 @@ $primary-pink: #ff3358;
   padding: 0 5%;
 
   .hero-badge {
-    color: $primary-pink;
+    color: var(--primary-pink);
     border: 1px solid rgba(255, 51, 88, 0.4);
     padding: 6px 14px;
     border-radius: 50px;
@@ -26,7 +24,7 @@ $primary-pink: #ff3358;
 
   .hero-subtitle {
     font-size: 18px;
-    color: #888;
+    color: var(--text-secondary);
     margin-bottom: 16px;
   }
 

@@ -1,2 +1,3 @@
-export * from './header/header';
-export * from './landing-page';
+export * from './header';
+export * from './roles';
+export * from './hero';

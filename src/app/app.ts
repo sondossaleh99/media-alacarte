@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { HeaderComponent, LandingPageComponent } from './components';
+import { LandingPageComponent } from './pages';
 
 @Component({
   selector: 'app-root',
-  imports: [LandingPageComponent, HeaderComponent],
+  imports: [LandingPageComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

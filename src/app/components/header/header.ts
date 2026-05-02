@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { NavMenu, NavMenuLookup } from '../../core';
 import { CommonModule } from '@angular/common';
+import { AppButtonComponent, NavMenu, NavMenuLookup } from '../../shared';
 
 @Component({
   selector: 'header-cmp',
-  imports: [CommonModule],
+  imports: [CommonModule, AppButtonComponent],
   templateUrl: './header.html',
   styleUrl: './header.scss',
 })
