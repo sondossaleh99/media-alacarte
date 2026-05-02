@@ -1,4 +1,4 @@
 export * from './header';
-export * from './roles';
 export * from './hero';
-export * from './solution';
+export * from './roles';
+export * from './solutions';

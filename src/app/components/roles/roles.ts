@@ -1,33 +1,34 @@
 import { Component } from '@angular/core';
-import { AppCardComponent } from '../../shared';
 import { CommonModule } from '@angular/common';
+import { AppTimeLineComponent } from '../../shared';
+import { RolesDetailComponent } from './components';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'roles-cmp',
-  imports: [AppCardComponent, CommonModule],
+  imports: [CommonModule, AppTimeLineComponent, RolesDetailComponent],
   templateUrl: './roles.html',
   styleUrl: './roles.scss',
+  providers: [DataService],
 })
 export class RolesComponent {
 
-  roleDeatils = [
-    {
-      title: 'Advertisers',
-      description: 'Create, distribute and manage your campaigns across multiple channels.',
-      icon: 'fa fa-bullhorn'
-    },
-    {
-      title: 'Agencies',
-      description: 'Get new clients and contracts & enhance the workflow with automated tools.',
-      icon: 'fa fa-users'
-    },
-    {
-      title: 'Media Owners',
-      description: 'Get a clear view of billing, manage campaigns and control all in one place.',
-      icon: 'fa-regular fa-camera'
-    },
-  ]
-  ngOnInit() {
+  get timlineData() {
+    return this.dataService.timlineData;
   }
 
+  set timlineData(data) {
+    this.dataService.timlineData = data;
+  }
+
+  constructor(private dataService: DataService) { 
+  }
+
+  ngOnInit() {
+    this.dataService.reset();
+  }
+
+  setActiveService(index: number) {
+    this.dataService.setActiveService(index);
+  }
 }

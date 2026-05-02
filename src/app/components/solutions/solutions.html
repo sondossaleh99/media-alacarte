@@ -1,0 +1,15 @@
+<div class="roles-container">
+  <div class="role-header">
+    <div class="role-title">
+      WHY MEDIA ALA CARTE
+    </div>
+    <h2 class="role-tagline">Our All Solution for Smarter Media Buying.</h2>
+    <p class="role-detail">Plan and optimize your ad campaigns with data-driven insights and seamless collaboration for
+      maximum impact.</p>
+  </div>
+  <div class="role-cards">
+    <app-card *ngFor="let role of roleDeatils" [title]="role.title" [description]="role.description" [icon]="role.icon"
+      actionLabel="Get Started">
+    </app-card>
+  </div>
+</div>

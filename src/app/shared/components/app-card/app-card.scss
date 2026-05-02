@@ -5,12 +5,12 @@
     border: 1px solid var(--border-light);
     border-radius: 8px;
     gap: 24px;
-    background-color: var(--bg-dark);
+    background-color: var(--bg-gray);
 
     .card-icon {
         height: 40px;
         width: 40px;
-        background: var(--bg-gray);
+        background: var(--bg-dark);
         display: flex;
         align-items: center;
         justify-content: center;

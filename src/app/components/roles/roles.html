@@ -1,15 +1,13 @@
 <div class="roles-container">
-  <div class="role-header">
-    <div class="role-title">
-      Our Services
-    </div>
-    <h2 class="role-tagline">Three Powerful Roles. One Platform.</h2>
-    <p class="role-detail">Advertisers launch campaigns, agencies manage clients and
+  <div class="header">
+    <span class="sub-title">{{ 'What We Do' | uppercase}}</span>
+    <h2 class="main-title">Our Services</h2>
+    <p class="description">Advertisers launch campaigns, agencies manage clients and
       media owners monetize their inventory.</p>
   </div>
-  <div class="role-cards">
-    <app-card *ngFor="let role of roleDeatils" [title]="role.title" [description]="role.description" [icon]="role.icon"
-      actionLabel="Get Started">
-    </app-card>
+
+  <div class="roles-content">
+    <app-time-line [services]="timlineData" (activeServiceChange)="setActiveService($event)"></app-time-line>
+    <roles-detail-cmp></roles-detail-cmp>
   </div>
 </div>

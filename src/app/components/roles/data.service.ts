@@ -1,12 +1,12 @@
 import { Injectable } from "@angular/core";
-import { SolutionDetailModel, TimeLineItemModel } from "../../shared";
+import { RolesDetailModel, TimeLineItemModel } from "../../shared";
 
 @Injectable()
 
-export class SolutionDataService {
+export class DataService {
 
   activeService = 0;
-  solutionDetails: SolutionDetailModel[] = [
+  rolesDetailModel: RolesDetailModel[] = [
     {
       title: 'Advertisers',
       description: 'Create, distribute and manage your campaigns across multiple channels.',

@@ -1,4 +1,4 @@
-export interface SolutionDetailModel {
+export interface RolesDetailModel {
   title: string;
   description: string;
   headline: string;

@@ -1,0 +1,39 @@
+.roles-container {
+    background-color: var(--bg-dark);
+    padding: 6.35rem 10rem;
+
+    .role-header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+        text-align: center;
+
+        .role-title {
+            font-size: 16px;
+            color: var(--primary-pink);
+            font-weight: 400;
+        }
+
+        .role-tagline {
+            font-size: 48px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .role-detail {
+            font-size: 18px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            width: 60%;
+            margin: auto;
+        }
+    }
+
+    .role-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin: 0 10%;
+    }
+}
