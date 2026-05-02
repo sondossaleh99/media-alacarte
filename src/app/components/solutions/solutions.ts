@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class SolutionsComponent {
 
-    roleDeatils = [
+    solutionDetails = [
         {
             title: 'Campaign Planning',
             description: 'Plan and optimize your ad campaigns with data-driven insights and seamless collaboration for maximum impact.',

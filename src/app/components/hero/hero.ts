@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { HeroDetailComponent } from './components';
 
 @Component({
   selector: 'hero-cmp',
-  imports: [],
+  imports: [HeroDetailComponent],
   templateUrl: './hero.html',
   styleUrl: './hero.scss',
 })

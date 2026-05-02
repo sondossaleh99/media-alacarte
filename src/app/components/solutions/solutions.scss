@@ -1,27 +1,27 @@
-.roles-container {
+.solutions-container {
     background-color: var(--bg-dark);
     padding: 6.35rem 10rem;
 
-    .role-header {
+    .solutions-header {
         display: flex;
         flex-direction: column;
         gap: 20px;
         margin-bottom: 50px;
         text-align: center;
 
-        .role-title {
+        .solutions-title {
             font-size: 16px;
             color: var(--primary-pink);
             font-weight: 400;
         }
 
-        .role-tagline {
+        .solutions-tagline {
             font-size: 48px;
             font-weight: 500;
             margin: 0;
         }
 
-        .role-detail {
+        .solutions-description {
             font-size: 18px;
             color: var(--text-secondary);
             line-height: 1.5;
@@ -30,7 +30,7 @@
         }
     }
 
-    .role-cards {
+    .solutions-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
