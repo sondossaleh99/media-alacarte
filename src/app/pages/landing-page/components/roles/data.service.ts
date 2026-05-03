@@ -11,19 +11,19 @@ export class DataService {
       title: 'Advertisers',
       description: 'Create, distribute and manage your campaigns across multiple channels.',
       headline: 'Run & optimize ads across multiple platforms effortlessly.',
-      image: 'images/advertisers.jpg'
+      image: 'assets/images/advertisers.jpg'
     },
     {
       title: 'Agencies',
       description: 'Get new clients and contracts & enhance the workflow with automated tools.',
       headline: 'Empower your agency with advanced media tools.',
-      image: 'images/agencies.jpg'
+      image: 'assets/images/agencies.jpg'
     },
     {
       title: 'Media Owners',
       description: 'Get a clear view of billing, manage campaigns and control all in one place.',
       headline: 'Take control of your media inventory.',
-      image: 'images/mediaowners.png'
+      image: 'assets/images/mediaowners.png'
     }
   ];
 
