@@ -2,34 +2,6 @@
     background-color: var(--bg-dark);
     padding: 6.35rem 10rem;
 
-    .solutions-header {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        margin-bottom: 50px;
-        text-align: center;
-
-        .solutions-title {
-            font-size: 16px;
-            color: var(--primary-pink);
-            font-weight: 400;
-        }
-
-        .solutions-tagline {
-            font-size: 48px;
-            font-weight: 500;
-            margin: 0;
-        }
-
-        .solutions-description {
-            font-size: 18px;
-            color: var(--text-secondary);
-            line-height: 1.5;
-            width: 60%;
-            margin: auto;
-        }
-    }
-
     .solutions-cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

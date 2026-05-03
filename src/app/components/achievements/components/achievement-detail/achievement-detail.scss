@@ -1,0 +1,24 @@
+.achievement-detail-container {
+    background: var(--primary-pink-linear);
+    border-radius: 30px;
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+
+    .achievement-detail-content {
+        .number {
+            font-size: 4rem;
+            font-weight: 800;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .label {
+            font-size: 1rem;
+            opacity: 0.9;
+            line-height: 1.4;
+        }
+    }
+}

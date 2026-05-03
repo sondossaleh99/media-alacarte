@@ -1,35 +1,6 @@
 .roles-container {
   background-color: var(--bg-gray);
   padding: 6rem 8rem;
-  color: var(--text-white);
-
-  .header {
-    text-align: center;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    .sub-title {
-      color: var(--primary-pink);
-      font-size: 16px;
-      font-weight: 400;
-    }
-
-    .main-title {
-      font-size: 48px;
-      font-weight: 500;
-      margin: 0;
-    }
-
-    .description {
-      max-width: 60%;
-      margin: auto;
-      line-height: 1.5;
-      font-size: 18px;
-      color: var(--text-secondary);
-    }
-  }
 
   .roles-content {
     display: flex;

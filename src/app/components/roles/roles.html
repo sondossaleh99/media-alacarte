@@ -1,11 +1,6 @@
 <div class="roles-container">
-  <div class="header">
-    <span class="sub-title">{{ 'What We Do' | uppercase}}</span>
-    <h2 class="main-title">Our Services</h2>
-    <p class="description">Advertisers launch campaigns, agencies manage clients and
-      media owners monetize their inventory.</p>
-  </div>
-
+  <section-header-cmp [title]="sectionHeaderData.title" [subTitle]="sectionHeaderData.subTitle"
+    [description]="sectionHeaderData.description"></section-header-cmp>
   <div class="roles-content">
     <app-time-line [services]="timlineData" (activeServiceChange)="setActiveService($event)"></app-time-line>
     <roles-detail-cmp></roles-detail-cmp>

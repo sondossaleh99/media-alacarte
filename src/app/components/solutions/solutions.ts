@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { AppCardComponent } from '../../shared';
 import { CommonModule } from '@angular/common';
+import { SectionHeaderComponent } from '../section-header';
 
 @Component({
     selector: 'solutions-cmp',
-    imports: [AppCardComponent, CommonModule],
+    imports: [AppCardComponent, CommonModule, SectionHeaderComponent],
     templateUrl: './solutions.html',
     styleUrl: './solutions.scss',
 })
@@ -32,6 +33,13 @@ export class SolutionsComponent {
             icon: 'fa-solid fa-chart-pie'
         },
     ]
+
+    sectionHeaderData = {
+        subTitle: 'Why Media Ala carte',
+        title: 'Our All Solution for Smarter Media Buying.',
+        description: 'Plan and optimize your ad campaigns with data-driven insights and seamless collaboration for maximum impact.'
+    }
+
     ngOnInit() {
     }
 

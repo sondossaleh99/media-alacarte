@@ -1,0 +1,52 @@
+.platform-container {
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
+    .platform-content {
+        background: var(--gray-linear);
+        border: 1px solid var(--border-light);
+        border-radius: 40px;
+        padding: 60px;
+        text-align: center;
+        width: 100%;
+        max-width: 1100px;
+
+        .main-title {
+            font-size: 48px;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 30px;
+            line-height: 1.5;
+
+            span {
+                color: var(--primary-pink);
+            }
+        }
+
+        .platform-features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+
+            .feature-item {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                color: white;
+                font-size: 18px;
+
+                .check-icon {
+                    color: var(--primary-pink);
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .platform-btn {
+            width: fit-content;
+            margin: auto;
+        }
+    }
+}

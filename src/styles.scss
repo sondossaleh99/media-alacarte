@@ -7,6 +7,9 @@ body {
 
 :root {
     --primary-pink: #ff3358;
+    --primary-pink-linear: linear-gradient(to right, #ff4d5a, #e91e63);
+
+    --gray-linear: linear-gradient(to left , #202020, #2d2a2a);
 
     --bg-dark: rgba(32, 32, 32, 1);
     --bg-gray: rgba(249, 250, 251, 0.05);
@@ -15,4 +18,5 @@ body {
     --text-secondary: #888;
 
     --border-light: rgba(249, 250, 251, 0.1);
+
 }
