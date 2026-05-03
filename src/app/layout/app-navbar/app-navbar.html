@@ -1,15 +1,15 @@
-<div class="header-container">
+<div class="app-navbar-container">
   <div class="logo">
     <img src="images/logo.png" height="40" class="mr-2" alt="Logo">
   </div>
 
-  <ul class="header-links">
+  <ul class="app-navbar-links">
     <li *ngFor="let item of items" (click)="setActive(item.id)" [class.active]="selectedItem === item.id">
       {{item.label}}
     </li>
   </ul>
 
-  <div class="header-actions">
+  <div class="app-navbar-actions">
     <app-button label="Request a Demo"></app-button>
     <app-button variant="outline" label="Login"></app-button>
   </div>

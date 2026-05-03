@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AppCardComponent } from '../../shared';
+import { AppCardComponent } from '../../../../shared';
 import { CommonModule } from '@angular/common';
 import { SectionHeaderComponent } from '../section-header';
 

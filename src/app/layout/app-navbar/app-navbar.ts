@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { AppButtonComponent, NavMenu, NavMenuLookup } from '../../shared';
 
 @Component({
-  selector: 'header-cmp',
+  selector: 'app-navbar-cmp',
   imports: [CommonModule, AppButtonComponent],
-  templateUrl: './header.html',
-  styleUrl: './header.scss',
+  templateUrl: './app-navbar.html',
+  styleUrl: './app-navbar.scss',
 })
-export class HeaderComponent {
+export class AppNavbarComponent {
 
   items = NavMenuLookup.getLookup();
   selectedItem: NavMenu = NavMenu.PLATFORM;

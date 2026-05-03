@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { RolesDetailModel, TimeLineItemModel } from "../../shared";
+import { RolesDetailModel, TimeLineItemModel } from "../../../../shared";
 
 @Injectable()
 

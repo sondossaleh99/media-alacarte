@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DataService } from '../../data.service';
-import { AppButtonComponent, RolesDetailModel } from '../../../../shared';
+import { AppButtonComponent, RolesDetailModel } from '../../../../../../shared';
 import { trigger, transition, style, animate } from '@angular/animations';
 
 @Component({

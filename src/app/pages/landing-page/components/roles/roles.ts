@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppTimeLineComponent } from '../../shared';
+import { AppTimeLineComponent } from '../../../../shared';
 import { RolesDetailComponent } from './components';
 import { DataService } from './data.service';
 import { SectionHeaderComponent } from '../section-header';
