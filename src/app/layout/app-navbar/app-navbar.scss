@@ -1,5 +1,5 @@
 
-.header-container {
+.app-navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,7 @@
     right: 0;
     background-color: var(--bg-dark);
     
-    .header-links {
+    .app-navbar-links {
         list-style: none;
         display: flex;
         gap: 30px;
@@ -31,7 +31,7 @@
         }
     }
 
-    .header-actions {
+    .app-navbar-actions {
         display: flex;
         align-items: center;
         gap: 8px;

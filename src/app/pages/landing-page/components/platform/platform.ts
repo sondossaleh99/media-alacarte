@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppButtonComponent } from '../../shared';
+import { AppButtonComponent } from '../../../../shared';
 
 @Component({
     selector: 'platform-cmp',
