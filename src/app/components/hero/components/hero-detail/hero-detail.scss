@@ -1,0 +1,64 @@
+.hero-detail-section {
+    position: relative;
+
+    .hero-image {
+        position: relative;
+        border-radius: 30px;
+        overflow: hidden;
+
+        .hero-img-detail {
+            width: 100%;
+            display: block;
+            filter: brightness(0.8);
+        }
+    }
+
+    .hero-card {
+        position: absolute;
+        background: var(--bg-gray);
+        border: 1px solid var(--border-light);
+        padding: 15px 25px;
+        border-radius: 20px;
+        color: white;
+        box-shadow: 0 20px 40px var(--bg-gray);
+        backdrop-filter: blur(15px);
+        animation: float 4s ease-in-out infinite;
+
+        &.revenue {
+            top: 70px;
+            right: -30px;
+
+            h4 {
+                font-size: 12px;
+                opacity: 0.7;
+            }
+
+            p {
+                font-size: 24px;
+                font-weight: bold;
+                color: #4caf50;
+            }
+        }
+
+        &.campaigns {
+            bottom: 40px;
+            left: -30px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .status-dot {
+                width: 10px;
+                height: 10px;
+                background: #ff4d5a;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(-10px);
+    }
+}

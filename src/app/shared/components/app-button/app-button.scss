@@ -1,0 +1,27 @@
+.app-btn {
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--primary-pink);
+    color: white;
+    width: 100%;
+
+    &.filled {
+        background-color: var(--primary-pink);
+
+        &:hover {
+            background-color: transparent;
+            transition: all 0.4s ease-in-out;
+        }
+    }
+
+    &.outline {
+        background-color: transparent;
+
+        &:hover {
+            background-color: var(--primary-pink);
+            transition: all 0.4s ease-in-out;
+        }
+    }
+}

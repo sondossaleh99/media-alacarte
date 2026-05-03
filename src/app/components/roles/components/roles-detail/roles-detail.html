@@ -1,0 +1,13 @@
+<div class="roles-detail" *ngIf="data" [@fadeAnimation]="activeService">
+  <div class="text-side">
+    <span class="detail-label">FOR {{ data.title | uppercase }}</span>
+    <h3 class="detail-title">{{ data.headline }}</h3>
+    <p class="detail-desc">{{ data.description }}</p>
+    <div class="detail-btn">
+      <app-button label="Learn more"></app-button>
+    </div>
+  </div>
+  <div class="image-side">
+    <img [src]="data.image" [alt]="data.title">
+  </div>
+</div>

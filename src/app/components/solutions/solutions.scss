@@ -1,0 +1,11 @@
+.solutions-container {
+    background-color: var(--bg-dark);
+    padding: 6.35rem 10rem;
+
+    .solutions-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin: 0 10%;
+    }
+}

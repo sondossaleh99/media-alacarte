@@ -1,0 +1,9 @@
+<div class="solutions-container">
+  <section-header-cmp [title]="sectionHeaderData.title" [subTitle]="sectionHeaderData.subTitle"
+    [description]="sectionHeaderData.description"></section-header-cmp>
+  <div class="solutions-cards">
+    <app-card *ngFor="let solution of solutionDetails" [title]="solution.title" [description]="solution.description"
+      [icon]="solution.icon" actionLabel="Get Started">
+    </app-card>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="roles-container">
+  <section-header-cmp [title]="sectionHeaderData.title" [subTitle]="sectionHeaderData.subTitle"
+    [description]="sectionHeaderData.description"></section-header-cmp>
+  <div class="roles-content">
+    <app-time-line [services]="timlineData" (activeServiceChange)="setActiveService($event)"></app-time-line>
+    <roles-detail-cmp></roles-detail-cmp>
+  </div>
+</div>

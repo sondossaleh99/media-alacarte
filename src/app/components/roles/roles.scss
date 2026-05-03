@@ -1,0 +1,10 @@
+.roles-container {
+  background-color: var(--bg-gray);
+  padding: 6rem 8rem;
+
+  .roles-content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+}

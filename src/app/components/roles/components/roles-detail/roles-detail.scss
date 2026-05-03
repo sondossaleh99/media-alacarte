@@ -1,0 +1,42 @@
+.roles-detail {
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    flex-grow: 1;
+
+    .text-side {
+        width: 50%;
+        margin: auto;
+        padding: 16px;
+        
+        .detail-label {
+            color: var(--primary-pink);
+            font-size: 12px;
+        }
+
+        .detail-title {
+            font-size: 30px;
+            margin: 20px 0;
+            line-height: 1.5;
+        }
+
+        .detail-desc {
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .detail-btn {
+            width: fit-content;
+        }
+    }
+
+    .image-side {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
